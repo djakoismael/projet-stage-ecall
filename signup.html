@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title> eCall | Sign In</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html"><img src="img/dessin.svg" alt="logo ecall" class="header-logo"></a>
+        <nav class="header-nav">
+
+            <a href="signin.html" class="active">Se connecter</a>
+            <a href="fonctions-ecall.html">Fonctionnalités</a>
+            <a href="">Télecharger</a>
+
+        </nav>
+        <div class="header-tagline">
+            <h1> INSCRIPTION SUR E-CALL</h1>
+        </div>
+    </header>
+    <div>
+        <h3> Veuillez d’abord vous inscrire afin que nous puissions mieux vous rendre service
+        </h3>
+        <div>
+            <form action="signin-validation.html" method="">
+                <fieldset>
+                    <legend> S'inscrire avec son Numéro</legend>
+                    <div>
+                        <label for="number-user"> </label>
+                        <input type="tel" name="number-user" id="number-user" placeholder="Votre N° Tel" autofocus
+                            inputmode="numeric" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="name-user"> </label>
+                        <input type="text" name="name-user" id="name-user" placeholder="Votre NOM et PRENOM" autofocus
+                            inputmode="text" required>
+                    </div>
+                    <br>
+                    <div>
+
+                        <input type="checkbox" name="cgu" id="cgu" placeholder="Votre NOM et PRENOM" autofocus
+                            inputmode="text" required>
+                        <label for="cgu">Conditions et Terms d'Utilisation </label>
+                    </div>
+                    <br>
+                    <input type="submit" value="CONFIRMATION" class="button4">
+                </fieldset>
+            </form>
+            <br>
+            <div>
+                <p> ou alors avec Facebook | Google</p>
+                <button class="button3"> FACEBOOK CONNECT</button> <br> <br>
+                <button class="button1"> GOOGLE ACCOUNT</button>
+            </div>
+            <br>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+            <nav class="footer-nav">
+                <a href="a-propos.html">A propos</a>
+                <a href="contacts.html">Nous joindre</a>
+                <a href="others-apps.html">Others apps</a>
+            </nav>
+        </div>
+        <div>
+            <p> DIGIT - eCall 2019</p>
+        </div>
+    </footer>
+</body>
+
+</html>

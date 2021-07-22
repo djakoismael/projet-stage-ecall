@@ -1,0 +1,89 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  background-color: #f8f8f8;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  background-image: url(../img/bkg-hdr.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+
+.container1 {
+  padding-top: 30px;
+}
+
+.button1 {
+  font-size: 18px;
+  color: white;
+  background-color: #ff0000;
+  padding: 8px;
+  border: 0px;
+}
+
+.button2 {
+  font-size: 18px;
+  color: white;
+  background-color: #00b050;
+  padding: 8px;
+  border: 2px solid white;
+}
+
+.button3 {
+  font-size: 18px;
+  color: white;
+  background-color: #0070c0;
+  padding: 8px;
+  border: 2px solid white;
+}
+
+.button4 {
+  font-size: 18px;
+  color: white;
+  background-color: #591300;
+  padding: 8px;
+  border: 0px;
+}
+
+a {
+  color: #ffc000;
+}
+
+.footer {
+  color: white;
+
+  background-color: #282823;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: solid 10px #ffc000;
+}
+
+.footer-nav a {
+  color: white;
+}
+
+button {
+  font-size: 18px;
+}
+
+input {
+  font-size: 18 px;
+}
